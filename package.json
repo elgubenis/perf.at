@@ -1,0 +1,34 @@
+{
+  "name": "perf.at",
+  "version": "0.0.1",
+  "description": "browser performance measurement",
+  "main": "index.js",
+  "test": "node_modules/.bin/karma start karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://elgubenis@github.com/elgubenis/perf.at.git"
+  },
+  "keywords": [
+    "performance",
+    "monitor",
+    "lol"
+  ],
+  "author": "Linus Gubenis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/elgubenis/perf.at/issues"
+  },
+  "homepage": "https://github.com/elgubenis/perf.at#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-latest": "^6.14.0",
+    "jasmine-core": "^2.5.0",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-safari-launcher": "^1.0.0",
+    "uglify-js": "^2.7.3"
+  }
+}
